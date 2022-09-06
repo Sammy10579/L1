@@ -24,6 +24,7 @@ func main() {
 	fmt.Println(c)
 }
 
+//----------------------------------------------
 /* sync with channel
 c := 0
 n := 100
@@ -53,6 +54,7 @@ chanWg.Wait()
 fmt.Println(c)
 */
 
+//-----------------------------------------------
 /* sync with atomic
 c := int32(0)
 n := 200

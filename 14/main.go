@@ -4,6 +4,9 @@ import (
 	"fmt"
 )
 
+//Разработать программу, которая в рантайме способна определить тип
+//переменной: int, string, bool, channel из переменной типа interface{}.
+
 func t(data interface{}) {
 	fmt.Printf("%v is %T\n", data, data)
 }

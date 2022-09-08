@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+//Имеется последовательность строк - (cat, cat, dog, cat, tree) создать для нее
+//собственное множество.
+
 func newSet(slice []string) []string {
 	resMap := make(map[string]bool)
 	result := []string{}
